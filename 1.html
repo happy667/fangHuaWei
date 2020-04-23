@@ -1,0 +1,3973 @@
+<!doctype html>
+<html>
+<!--头部-->
+<head>
+    <!--标题-->
+    <title></title>
+    <!-------声明编码集------>
+    <meta charset="UTF-8"/>
+    <!--关键词-->
+    <meta name="keywords" content="">
+    <!--描述-->
+    <meta name="description" content="">
+</head>
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_1049490_h3hni4ji7yp.css"/>
+<link rel="stylesheet" href="font_1049490_2snai8vs0uo/iconfont.css"/>
+
+<style>
+    /*重置默认边距*/
+    body, p, ul, ol, dl, h1, h2, h3, h4, h5, input, form {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*清除列表样式*/
+    li {
+        list-style: none;
+    }
+
+    /*统一界面字体*/
+    body {
+        font: 12px/1.5;
+    'Microsoft yahei';
+        color: #333;
+    }
+
+    /*字体重置*/
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    h1, h2, h3, h4, h5, h6, b, sttong {
+        font-weight: normal;
+    }
+
+    i, em {
+        font-style: normal;
+    }
+
+    /*img重置*/
+    img {
+        vertical-align: top;
+    }
+
+    .main {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .fz12 {
+        font-size: 12px;
+    }
+
+    .fz14 {
+        font-size: 14px;
+    }
+
+    .fz16 {
+        font-size: 16px;
+    }
+
+    .fz18 {
+        font-size: 18px;
+    }
+
+    .pr {
+        position: relative;
+    }
+
+    .pb {
+        position: absolute;
+    }
+
+    .clearbox::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /*特价图标*/
+    .goods-tips {
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        margin-left: -21px;
+    }
+
+    .goods-tips span {
+        color: #fff;
+        display: block;
+        height: 18px;
+        background: #FF6A6E;
+        border-radius: 0 0 10px 10px;
+        padding: 2px 5px;
+        text-align: center;
+    }
+
+    /*导航按钮*/
+    .nav_btn {
+
+        float: right;
+
+    }
+
+    .nav_btn a {
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fff;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .nav_btn a:hover {
+        background: #fff;
+    }
+
+    .nav_btn a:last-child {
+        margin-right: 0px;
+    }
+
+    #box .header .header-top {
+        height: 36px;
+        background: #f4f4f4;
+    }
+
+    #box .header .header-top .topList {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    #box .header .header-top .topList .list li {
+        position: relative;
+        float: left;
+        padding: 0 8px;
+    }
+
+    #box .header .header-top .topList .list .item + :after {
+        content: "";
+        width: 0.5px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        top: 13px;
+        left: 0;
+        background: #d3d3d3;
+    }
+
+    #box .header .header-top .topList .list .dropdown_a li:first-child {
+        padding-left: 0px;
+    }
+
+    #box .header .header-top .topList .list li a {
+        line-height: 36px;
+        color: #a4a4a4;
+    }
+
+    #box .header .header-top .topList .list li a:hover {
+        color: #ca151d;
+    }
+
+    #box .header .header-top .topList .list li .dropdown {
+        position: relative;
+        z-index: 300;
+        margin: 0 -9px;
+        height: 36px;
+    }
+
+    #box .header .header-top .topList .list li .dropdown .dropdown_a {
+        position: relative;
+        padding: 0 20px 0 10px;
+        height: 36px;
+        z-index: 100;
+    }
+
+    #box .header .header-top .topList .list li .dropdown_a .list_icon {
+        display: block;
+        width: 10px;
+        height: 14px;
+        position: absolute;
+        top: 13px;
+        right: 8px;
+        background: url("images/下拉.png") no-repeat;
+        background-size: 100%;
+    }
+
+    #box .header .header-top .topList .list li .dropdown .dropdown_b {
+        position: absolute;
+        background: white;
+        border-radius: 7px 0px 7px 7px;
+        padding: 7px 6px;
+        left: -71px;
+        display: none;
+    }
+
+    #box .header .header-top .topList .list li .dropdown:hover {
+        box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+        z-index: 311;
+    }
+
+    #box .header .header-top .topList .list li .dropdown:hover .dropdown_a {
+        background: #fff;
+    }
+
+    #box .header .header-top .topList .list li .dropdown:hover .dropdown_b {
+        display: block;
+    }
+
+    #box .header .header-top .topList .list li .dropdown .dropdown_b .dropdown_b_content {
+        width: 137px;
+    }
+
+    #box .header .header-top .topList .list li .dropdown .dropdown_b .dropdown_b_content li {
+        width: 100%;
+        height: 38px;
+        text-align: center;
+        line-height: 38px;
+        padding: 0px;
+    }
+
+    #box .header .header-top .topList .list .dropdown_a:hover a {
+        color: #ca151d;
+    }
+
+    #box .header .header-top .topList .list .dropdown_a:hover .list_icon {
+        background: url("images/上拉.png") no-repeat;
+        background-size: 100%;
+    }
+
+    #box .header .header-top .topList .list-right li .dropdown .dropdown_b .dropdown_b_content {
+        width: 66px;
+    }
+
+    #box .header .header-top .topList .list-right li .dropdown .dropdown_b {
+        left: 0px;
+        padding: 4px 6px;
+        border-radius: 0px 0px 7px 7px;
+    }
+
+    #box .header .header-top .topList .list-right li.nav:hover .dropdown .dropdown_b {
+        display: block;
+    }
+
+    #box .header .header-top .topList .list-right li.nav .dropdown .dropdown_b {
+        display: none;
+        width: 887px;
+        height: 150px;
+        left: -809px;
+        padding: 0px;
+        border-radius: 7px 0px 7px 7px;
+    }
+
+    #box .header .header-top .topList .list-right li.nav .dropdown .dropdown_b .dropdown_icon {
+        margin: 45px 40px 25px 45px;
+        float: left;
+    }
+
+    #box .header .header-top .topList .list-right li.nav .dropdown .dropdown_b .dropdown_icon span {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #f7f7f7;
+        font-size: 50px;
+    }
+
+    #box .header .header-top .topList .list-right li.nav .dropdown .dropdown_b .dropdown_icon span .iconfont {
+        display: block;
+        width: 45px;
+        height: 100%;
+        font-size: 40px;
+        line-height: 40px;
+        color: #b9b9b9;
+        padding-left: 5px;
+    }
+
+    #box .header .header-top .topList .list-right li.nav .dropdown .dropdown_b dl {
+        float: left;
+        width: 185px;
+        height: 150px;
+    }
+
+    #box .header .header-top .topList .list-right li.nav .dropdown .dropdown_b dl dt {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+
+    #box .header .header-top .topList .list-right li.nav .dropdown .dropdown_b dl dd {
+        float: left;
+        margin-left: 0px;
+        margin-right: 10px;
+        line-height: 30px;
+        color: #b9b9b9;
+        height: 30px;
+        width: 75px;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b {
+        display: none;
+        left: -189px;
+        padding: 0px;
+        border-radius: 7px 0px 7px 7px;
+        padding: 5px 0px;
+    }
+
+    #box .header .header-top .topList .list-right li.phone:hover .dropdown_b {
+        display: block;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code {
+        width: 220px;
+        height: 95px;
+        padding: 15px 15px 15px 20px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code:last-child {
+        border-bottom: none;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code .codeImg {
+        width: 90px;
+        height: 90px;
+        float: left;
+        margin-right: 12px;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code .codeImg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code .codeInfo {
+        float: left;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code .codeInfo h2 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code .codeInfo .red {
+        color: #ca151d;
+        margin: 3px 0px;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code .codeInfo .iconfont {
+        display: block;
+        padding-left: 10px;
+        width: 32px;
+        height: 32px;
+        margin-top: 5px;
+        margin-right: 8px;
+        color: #a4a4a4;
+    }
+
+    #box .header .header-top .topList .list-right li.phone .dropdown .dropdown_b .dropdown_code .codeInfo .iconfont span {
+        display: block;
+        color: #a4a4a4;
+        font-size: 10px;
+    }
+
+    #box .header .header-top .topList .list .gouwuche {
+        margin: 0px;
+        padding: 0px 10px;
+        background: #EEEEEE;
+    }
+
+    #box .header .header-top .topList .list .gouwuche a {
+        display: block;
+        height: inherit;
+    }
+
+    #box .header .header-top .topList .list .gouwuche:hover {
+        background: #fff;
+    }
+
+    #box .header .header-top .topList .list-right li.gouwuche .dropdown .dropdown_b {
+        width: 460px;
+        left: -361px;
+        padding: 20px 0px;
+        border-radius: 7px 0px 7px 7px;
+    }
+
+    #box .header .header-top .topList .list-right li.gouwuche .dropdown .dropdown_b .minicart_empty {
+        height: 100px;
+        margin-bottom: 10px;
+        color: #a4a4a4;
+    }
+
+    #box .header .header-top .topList .list-right li.gouwuche .dropdown .dropdown_b .minicart_empty .iconfont {
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background: #F2F2F2;
+        font-size: 65px;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    #box .header .header-top .topList .list-right li.gouwuche .dropdown .dropdown_b .cartInfo {
+        text-align: center;
+        color: #a4a4a4;
+    }
+
+    #box .header .header-top .topList .list-right li.gouwuche .dropdown .dropdown_b a {
+        width: 148px;
+        height: 38px;
+        line-height: 38px;
+        display: block;
+        margin: 0 auto;
+        color: #ca141d;
+        border-radius: 2px;
+        border: 1px solid #a4a4a4;
+        color: #3a3a3a;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #box .header .header-top .topList .list-right li.gouwuche .dropdown .dropdown_b a:hover {
+        border: 1px solid #ca151d;
+        color: #ca151d;
+    }
+
+    #box .header .header-con {
+        height: 40px;
+        padding: 18px 0px;
+        background: #fbfbfb;
+    }
+
+    #box .header .header-con .left .logo {
+        width: 200px;
+        margin-right: 50px;
+    }
+
+    #box .header .header-con .left .logo a img {
+        width: 100%;
+        height: 36px;
+    }
+
+    #box .header .header-con .left .naver {
+        height: 40px;
+    }
+
+    #box .header .header-con .left .naver .nav li {
+        float: left;
+        margin-right: 23px;
+        padding-top: 10px;
+    }
+
+    #box .header .header-con .left .naver .nav li.img {
+        width: 75px;
+        padding-top: 8px;
+    }
+
+    #box .header .header-con .left .naver .nav li a {
+        display: block;
+        height: 30px;
+    }
+
+    #box .header .header-con .left .naver .nav li:hover a {
+        color: #ca151d;
+    }
+
+    #box .header .header-con .left .naver .nav li img {
+        width: 100%;
+        height: 24px;
+    }
+
+    #box .header .header-con .left .naver .nav li img:hover {
+        opacity: 0.7;
+    }
+
+    #box .header .header-con .right .search {
+        margin-top: 10px;
+        line-height: 1;
+        height: 30px;
+        background: #f0f0f0;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    #box .header .header-con .right .search form .text {
+        border: 0;
+        color: #3a3a3a;
+        width: 280px;
+        text-indent: 15px;
+        height: 30px;
+        line-height: 30px;
+        background: transparent;
+        outline: none;
+    }
+
+    #box .header .header-con .right .search form .submit {
+        width: 35px;
+        height: 30px;
+        outline: none;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    #box .header .header-con .right .search form .submit_icon {
+        width: 35px;
+        height: 30px;
+        line-height: 30px;
+        color: #353535;
+        font-size: 20px;
+    }
+
+    #box .header .header-con .right .search form .submit:hover {
+        background: #f0f0f0;
+        opacity: 0.5;
+    }
+
+    #box .header .header-bottom {
+        background: url("images/nav.jpg") no-repeat 50% 0;
+    }
+
+    #box .header .header-bottom .slider {
+        padding: 20px 0;
+    }
+
+    #box .header .header-bottom .slider .titleList {
+        box-shadow: 0 0 46px rgba(0, 0, 0, 0.03);
+        background: #fbfbfb;
+        height: 440px;
+        border-radius: 10px;
+
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-item-bg {
+        position: relative;
+        padding: 0px 25px 0px 25px;
+        left: 0;
+        top: 0;
+        height: 73px;
+        z-index: 3;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-item-bg .title {
+        border-bottom: 1px solid #e9e9e9;
+        padding: 14px 0px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-item-bg .title a {
+        display: inline-block;
+        margin-right: 12px;
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        color: #a6a6a6;
+        font-size: 14px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-item-bg .title a:last-child {
+        margin-right: 0px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-item-bg .title a:first-child {
+        margin-right: 0px;
+        margin-bottom: 5px;
+        float: none;
+        color: #848484;
+        font-size: 16px;
+    }
+
+    #box .header .header-bottom .slider .titleList li:first-child .category-item-bg {
+        height: 74px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #box .header .header-bottom .slider .titleList li:last-child .category-item-bg {
+        height: 74px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #box .header .header-bottom .slider .titleList li:last-child .category-item-bg .title {
+        border: none;
+    }
+
+    #box .header .header-bottom .slider .titleList:hover {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #box .header .header-bottom .slider .titleList li:hover .category-item-bg {
+        background: #fff;
+        box-shadow: -15px 0px 34px rgba(0, 0, 0, 0.06);
+    }
+
+    #box .header .header-bottom .slider .titleList li:first-child:hover .category-item-bg {
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    #box .header .header-bottom .slider .titleList li:last-child:hover .category-item-bg {
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    #box .header .header-bottom .slider .titleList li:hover .category-item-bg .title {
+        border-color: transparent;
+    }
+
+    #box .header .header-bottom .slider .titleList li:hover .category-panels {
+        display: block;
+    }
+
+    #box .header .header-bottom .slider .titleList li:hover .category-item-bg .title a {
+        color: #333;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-item-bg .title a:hover {
+        color: #ca151d;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels {
+        position: absolute;
+        height: 416px;
+        background: #fff;
+        left: 200px;
+        top: 0px;
+        padding: 24px 20px 0px;
+        border-radius: 0px 10px 10px 0px;
+        display: none;
+        z-index: 2;
+        box-shadow: 9px 10px 46px rgba(0, 0, 0, 0.1);
+    }
+
+    #box .header .header-bottom .slider .titleList li .panels1 {
+        width: 202px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .panels2 {
+        width: 447px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .panels3 {
+        width: 662px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .panels4 {
+        width: 891px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList {
+        float: left;
+        margin-right: 25px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList:last-child {
+        margin-right: 0px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li {
+        margin-bottom: 18px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li:last-child {
+        margin-bottom: 0px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li a {
+        display: block;
+        width: 188px;
+        padding: 12px 8px;
+        border-radius: 10px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li img {
+        display: inline-block;
+        width: 56px;
+        height: 56px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li span {
+        display: inline-block;
+        height: 56px;
+        line-height: 56px;
+        color: #777;
+        font-size: 14px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li.all div {
+        padding: 13px 6px;
+        width: 188px;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li.all a {
+        width: 132px;
+        height: 42px;
+        line-height: 42px;
+        margin-top: 10px;
+        border: 1px solid #f2f2f2;
+        border-radius: 22px;
+        font-size: 13px;
+        color: #a7a7a7;
+        display: block;
+        position: relative;
+        text-indent: 55px;
+        padding: 0;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li.all a::before {
+        display: block;
+        content: "";
+        position: absolute;
+        left: -1px;
+        top: -19px;
+        height: 42px;
+        width: 42px;
+        margin-top: 18px;
+        border: 1px solid #f2f2f2;
+        border-radius: 50%;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li.all a::after {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 20px;
+        top: 16px;
+        border-left: 5px solid #c0c0c0;
+        border-right: 5px solid transparent;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+    }
+
+    #box .header .header-bottom .slider .titleList li .category-panels .subList li.subcate-item:hover a {
+        background: #f6f6f6;
+    }
+
+    #box .header .header-bottom .slider .nav_icon {
+        width: 985px;
+        top: 220px;
+        left: 210px;
+    }
+
+    #box .header .header-bottom .slider .nav_icon a {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    #box .header .header-bottom .slider .nav_icon .left {
+        background: url(images/icon.png) no-repeat -20px -111px;
+    }
+
+    #box .header .header-bottom .slider .nav_icon .right {
+        background: url(images/icon.png) no-repeat -121px -111px;
+    }
+
+    #box .header .header-bottom .slider .left:hover {
+        background: url(images/icon.png) no-repeat -319px -111px;
+        cursor: pointer;
+    }
+
+    #box .header .header-bottom .slider .right:hover {
+        background: url(images/icon.png) no-repeat -220px -111px;
+        cursor: pointer;
+    }
+
+    #box .header .header-bottom .slider .nav_btn {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    #box .content .content-top .home-channel-list {
+        float: left;
+        border-radius: 10px;
+        height: 90px;
+        box-shadow: 9px 10px 46px rgba(0, 0, 0, 0.1);
+        color: #777;
+    }
+
+    #box .content .content-top .home-channel-list li {
+        float: left;
+        margin: 15px 0;
+        padding: 0px 20px;
+    }
+
+    #box .content .content-top .home-channel-list li.left {
+        width: 224px;
+        border-right: 1px solid #eee;
+    }
+
+    #box .content .content-top .home-channel-list li.left .login_icon {
+        width: 52px;
+        height: 52px;
+        float: left;
+        margin-right: 15px;
+
+    }
+
+    #box .content .content-top .home-channel-list li.left .login_icon img {
+        width: 52px;
+        height: 52px;
+    }
+
+    #box .content .content-top .home-channel-list li.left .login-url {
+        margin-top: 5px;
+    }
+
+    #box .content .content-top .home-channel-list li.left .login-url a {
+        color: #000;
+    }
+
+    #box .content .content-top .home-channel-list li.left .login-url a:hover {
+        color: #de5b60;
+    }
+
+    #box .content .content-top .home-channel-list li.left .w-btn {
+        margin-top: 10px;
+    }
+
+    #box .content .content-top .home-channel-list li.left .w-btn a {
+        display: inline-block;
+        border: 1px solid #de5b60;
+        border-radius: 5px;
+        width: 55px;
+        height: 16px;
+        line-height: 16px;
+        padding: 3px 5px;
+        font-size: 13px;
+        margin-right: 9px;
+    }
+
+    #box .content .content-top .home-channel-list li.left .w-btn a:first-child {
+        color: #de5b60;
+        border: 1px solid #de5b60;
+    }
+
+    #box .content .content-top .home-channel-list li.left .w-btn a:first-child:hover {
+        color: #fff;
+        background: #de5b60;
+    }
+
+    #box .content .content-top .home-channel-list li.left .w-btn a:last-child {
+        color: #fde4b3;
+        background: #595454;
+        border: 1px solid #595454;
+    }
+
+    #box .content .content-top .home-channel-list li.left .w-btn a:last-child:hover {
+        background: #333;
+        border: 1px solid #333;
+    }
+
+    #box .content .content-top .home-channel-list li.con {
+        width: 610px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li {
+        float: left;
+        border: none;
+        padding: 0px;
+        margin: 0 54px 0 0;
+
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li a {
+        display: block;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li a i {
+        display: block;
+        margin: 0 auto;
+        width: 46px;
+        height: 46px;
+        background: url(images/home-channel-list-con.png) no-repeat;
+        background-position: 2px 0px;
+        background-size: 330px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li a span {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li a:hover {
+        color: #cb242b;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li:nth-child(2) a i {
+        background-position: -43px 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li:nth-child(3) a i {
+        background-position: -87px 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li:nth-child(4) a i {
+        background-position: -131px 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li:nth-child(5) a i {
+        background-position: -177px 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li:nth-child(6) a i {
+        background-position: -219px 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.con ul li:nth-child(6) {
+        margin-right: 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.right {
+        width: 284px;
+        padding: 0;
+        margin: 0;
+        border-left: 1px solid #eee;
+    }
+
+    #box .content .content-top .home-channel-list li.right div {
+        padding: 7px 15px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .top {
+        height: 30px;
+        border-bottom: 1px solid #eee;
+    }
+
+    #box .content .content-top .home-channel-list li.right .top a span {
+        display: inline-block;
+        margin-right: 5px;
+        line-height: 30px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .top a span.title {
+        font-weight: bold;
+    }
+
+    #box .content .content-top .home-channel-list li.right .top a span.content {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .top a:last-child:hover span {
+        color: #de5b60;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom {
+        height: 31px;
+        line-height: 31px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom a {
+        display: inline-block;
+        margin-right: 12px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom a:last-child {
+        margin-right: 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom a i {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(images/home-channel-list-con.png) no-repeat;
+        background-position: -264px 0px;
+        background-size: 330px;
+        vertical-align: top;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom a span {
+        vertical-align: bottom;
+        font-size: 12px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom a:nth-child(2) i {
+        background-position: -287px 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom a:nth-child(3) i {
+        background-position: -309px 0px;
+    }
+
+    #box .content .content-top .home-channel-list li.right .bottom a:hover {
+        color: #de5b60;
+    }
+
+    #box .content .content-bottom .home-list {
+        margin-top: 20px;
+    }
+
+    #box .content .content-bottom .home-list li {
+        float: left;
+        width: 290px;
+        height: 200px;
+        margin-right: 13px;
+        border-radius: 10px;
+        transition: all .2s linear 0s;
+    }
+
+    #box .content .content-bottom .home-list li:last-child {
+        margin-right: 0px;
+    }
+
+    #box .content .content-bottom .home-list li:hover {
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1)
+    }
+
+    #box .content .content-bottom .home-list li a {
+        display: block;
+        height: 200px;
+    }
+
+    #box .content .content-bottom .home-list li a img {
+        width: 290px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    #box .content .content-bottom .home-goods-nav {
+        margin: 20px 0;
+    }
+
+    #box .content .content-bottom .home-goods-nav a img {
+        width: 1200px;
+        border-radius: 10px;
+    }
+
+    #box .content .content-bottom .home-goods-nav .nav_btn {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    #box .content .content-bottom .home-goods {
+        margin-top: 30px;
+    }
+
+    #box .content .content-bottom .home-goods .h {
+        padding-bottom: 15px;
+    }
+
+    #box .content .content-bottom .home-goods .h h2 {
+        float: left;
+    }
+
+    #box .content .content-bottom .home-goods .goods-left {
+        height: 592px;
+        float: left;
+        border-radius: 10px;
+        transition: all .2s linear 0s;
+    }
+
+    #box .content .content-bottom .home-goods .goods-left:hover {
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1)
+    }
+
+    #box .content .content-bottom .home-goods .goods-left a img {
+        height: 592px;
+        width: 230px;
+        border-radius: 10px;
+    }
+
+    #box .content .content-bottom .home-goods .goods {
+        float: left;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul {
+        width: 970px;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li {
+        float: left;
+        position: relative;
+        width: 230px;
+        height: 290px;
+        margin: 0 0 12px 12px;
+        border-radius: 10px;
+        background: #f9f9f9;
+        transition: all .2s linear 0s;
+
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li:hover {
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li a .goods-img {
+        height: 150px;
+        width: 150px;
+        margin: 40px auto 20px;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li a img {
+        border-radius: 10px;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li a .goods-img img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li a p {
+        text-align: center;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li a .goods-title {
+        color: #333;
+        height: 22px;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li a .goods-desc {
+        color: #777;
+        margin-bottom: 7px;
+    }
+
+    #box .content .content-bottom .home-goods .goods ul li a .goods-price {
+
+        color: #d0021b;
+    }
+
+    .goods-tips span {
+        color: #fff;
+        display: block;
+        width: 32px;
+        height: 18px;
+        background: #FF6A6E;
+        border-radius: 0 0 10px 10px;
+        padding: 2px 5px;
+        text-align: center;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li {
+        float: left;
+        width: 228px;
+        margin-right: 15px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li.watch {
+        width: 191px;
+        margin-right: 10px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li.watch:last-child {
+        margin-right: 0;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li a {
+        display: block;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li a .goods-info {
+        padding-top: 30px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.03);
+        transition: all .2s linear 0s;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li a .goods-info:hover {
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li a .goods-info .goods-img img {
+        display: block;
+        margin: 0px auto 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li.watch a .goods-info .goods-img img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li a .goods-info .goods-desc {
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        background: #f3f3f3;
+        border-radius: 0 0 10px 10px;
+        color: #777;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li a .goods-title {
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list ul li a .goods-price {
+        text-align: center;
+        color: #d0021b;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list .nextPag {
+        right: 0px;
+        top: 60px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list .nextPag a {
+        display: block;
+        height: 70px;
+        width: 35px;
+        background: #e5e5e5;
+        border-radius: 10px 0 0 10px;
+        text-align: center;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list .nextPag a:hover {
+        background: #ccc;
+    }
+
+    #box .content .content-bottom .home-goods .goods-list .nextPag a i {
+        right: 7px;
+        top: 25px;
+        font-size: 18px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-title-list {
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        margin-left: 20px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-title-list ul li {
+        float: left;
+        font-size: 14px;
+        color: #999;
+        margin-right: 20px;
+    }
+
+    #box .content .content-bottom .home-goods .goods-title-list ul li a:hover {
+        color: #cb242b;
+    }
+
+    #box .content .content-bottom .home-goods . .all a span i {
+        vertical-align: bottom;
+    }
+
+    #box .content .content-bottom .home-goods .all {
+        float: right;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    #box .content .content-bottom .home-goods .all a span:hover {
+        color: #cb242b;
+    }
+
+    #box .content .content-bottom .floor {
+        margin-top: 30px;
+        height: 265px;
+    }
+
+    #box .content .content-bottom .floor div img {
+        border-radius: 10px;
+    }
+
+    #box .footer {
+        background: #f3f3f3;
+    }
+
+    #box .footer .Introduction .Introduction-top ul {
+        height: 80px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    #box .footer .Introduction .Introduction-top ul li {
+        float: left;
+        width: 305px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    #box .footer .Introduction .Introduction-top ul li i {
+        display: block;
+        width: 43px;
+        height: 43px;
+        margin-right: 10px;
+        margin-top: 20px;
+        background: blue;
+        float: left;
+    }
+
+    #box .footer .Introduction .Introduction-top ul li i.t1 {
+        background: url(images/icon.png) no-repeat -78px 0;
+        background-size: 382px;
+    }
+
+    #box .footer .Introduction .Introduction-top ul li i.t2 {
+        background: url(images/icon.png) no-repeat -120px 0;
+        background-size: 382px;
+    }
+
+    #box .footer .Introduction .Introduction-top ul li i.t3 {
+        background: url(images/icon.png) no-repeat -162px 0;
+        background-size: 382px;
+    }
+
+    #box .footer .Introduction .Introduction-top ul li i.t4 {
+        background: url(images/icon.png) no-repeat -204px 0;
+        background-size: 382px;
+    }
+
+    #box .footer .Introduction .Introduction-top ul li p {
+        font-size: 18px;
+    }
+
+    #box .footer .Introduction .Introduction-con {
+        padding: 25px 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    #box .footer .Introduction .Introduction-con dl {
+        float: left;
+        width: 153px;
+    }
+
+    #box .footer .Introduction .Introduction-con dl dt {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    #box .footer .Introduction .Introduction-con dl dd {
+        margin-left: 0;
+        line-height: 22px;
+        color: #777;
+        font-size: 12px;
+    }
+
+    #box .footer .Introduction .Introduction-con dl dd a:hover {
+        color: #ca141d;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r {
+        width: 281px;
+        border-left: 1px solid #e5e5e5;
+        text-align: center;
+
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dt {
+        font-size: 24px;
+        font-weight: bold;
+        color: #575757;
+
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd {
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.service-Phone {
+        color: #575757;
+        font-size: 14px;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.onlineService {
+        margin: 10px auto 20px;
+        width: 155px;
+
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.onlineService a {
+        display: block;
+        color: #fff;
+        font-size: 16px;
+        height: 32px;
+        line-height: 32px;
+        background: #333;
+        border-radius: 20px;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.onlineService a:hover {
+        opacity: 0.8;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.vEmail {
+        font-size: 14px;
+        color: #333;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.vEmail a i {
+        display: inline-block;
+        margin-right: 10px;
+        color: #333;
+        font-size: 18px;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.vEmail a:hover {
+        opacity: 0.8;
+
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.vEmail a.wachat:hover + .code {
+        display: block;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.vEmail .code {
+        position: absolute;
+        right: 250px;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.vEmail .code:hover {
+        display: block;
+    }
+
+    #box .footer .Introduction .Introduction-con dl.service-r dd.vEmail .code img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #box .footer .Introduction .Introduction-bottom {
+        padding: 20px 0;
+    }
+
+    #box .footer .Introduction .Introduction-bottom div.logo {
+        float: left;
+        width: 100px;
+        margin-right: 15px;
+    }
+
+    #box .footer .Introduction .Introduction-bottom div.logo img {
+        width: 100px;
+    }
+
+    #box .footer .Introduction .Introduction-bottom .footer-warrant-link {
+        width: 800px;
+    }
+
+    #box .footer .Introduction .Introduction-bottom .footer-warrant-link ul {
+        float: left;
+    }
+
+    #box .footer .Introduction .Introduction-bottom .footer-warrant-link ul li {
+        float: left;
+        margin-right: 5px;
+        height: 20px;
+        line-height: 20px;
+        color: #a4a4a4;
+        font-size: 12px;
+    }
+
+    #box .footer .Introduction .Introduction-bottom .footer-warrant-link ul li:hover a {
+        color: #ca151d;
+    }
+
+    #box .footer .Introduction .Introduction-bottom .footer-warrant-link ul.u1 li {
+        margin-right: 0px;
+        padding: 0 10px;
+        border-right: 1px solid #d3d3d3;
+        color: #777;
+        font-size: 12px;
+    }
+
+    #box .footer .Introduction .Introduction-bottom .footer-warrant-img a {
+        float: left;
+        margin-right: 15px;
+
+    }
+
+    #box .footer .Introduction .Introduction-bottom .footer-warrant-img a img {
+        width: 80px;
+        height: 30px;
+    }
+</style>
+<body id="body">
+<div id="box">
+    <!--header start-->
+    <div class="header">
+        <div class="header-top">
+            <div class="topList clearbox main">
+                <ul class="list-left list fl fz12">
+                    <li class="item"><a href="" style="color:#ca151d;">首页</a></li>
+                    <li class="item"><a href="">华为官网</a></li>
+                    <li class="item"><a href="">荣耀官网</a></li>
+                    <li class="item"><a href="">花粉俱乐部</a></li>
+                    <li class="item"><a href="">V码(优购码)</a></li>
+                    <li class="item"><a href="">企业购</a></li>
+                    <li class="item"><a href="">Select Region</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <div class="dropdown_a clearbox">
+                                <a href="">更多精彩</a>
+                                <i class="list_icon"></i>
+                            </div>
+
+                            <div class="dropdown_b clearbox">
+                                <ul class="dropdown_b_content">
+                                    <li><a href="">EMUI</a></li>
+                                    <li><a href="">应用市场</a></li>
+                                    <li><a href="">华为终端云空间</a></li>
+                                    <li><a href="">开发者联盟</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="list-right list fr fz12">
+                    <li><a href="">请登录</a></li>
+                    <li class="item"><a href="">注册</a></li>
+                    <li class="item"><a href="">我的订单</a></li>
+                    <li class="item">
+                        <div class="dropdown">
+                            <div class="dropdown_a clearbox">
+                                <a href="">客户服务</a>
+                                <i class="list_icon"></i>
+                            </div>
+
+                            <div class="dropdown_b clearbox">
+                                <ul class="dropdown_b_content fz12">
+                                    <li><a href="">服务中心</a></li>
+                                    <li><a href="">联系客服</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav item">
+                        <div class="dropdown ">
+                            <div class="dropdown_a clearbox">
+                                <a href="">网站导航</a>
+                                <i class="list_icon"></i>
+                            </div>
+
+                            <div class="dropdown_b clearbox">
+                                <div class="dropdown_icon">
+                                    <a href="">
+											<span>
+												<i class="iconfont icon-fangzi"></i>
+											</span>
+                                        商城首页
+                                    </a>
+                                </div>
+                                <dl class="">
+                                    <dt>频道</dt>
+                                    <dd>
+                                        <a href="">华为专区</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">荣耀专区</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">企业购</a>
+                                    </dd>
+                                </dl>
+                                <dl class="">
+                                    <dt>产品</dt>
+                                    <dd>
+                                        <a href="">手机</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">智能家居</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">平板&笔记本</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">通用配件</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">智能穿戴</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">专属配件</a>
+                                    </dd>
+                                </dl>
+                                <dl class="">
+                                    <dt>增值服务</dt>
+                                    <dd>
+                                        <a href="">以旧换新</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">礼品包装</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">补购保障</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="">99元换电池</a>
+                                    </dd>
+                                </dl>
+                                <dl class="">
+                                    <dt>会员</dt>
+                                    <dd>
+                                        <a href="">频道</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="phone">
+                        <div class="dropdown">
+                            <div class="dropdown_a clearbox">
+                                <a href="">手机版</a>
+                                <i class="list_icon"></i>
+                            </div>
+
+                            <div class="dropdown_b clearbox">
+                                <div class="dropdown_code">
+                                    <div class="codeImg">
+                                        <a href="">
+                                            <img src="images/dropdown_code1.png"/>
+                                        </a>
+                                    </div>
+                                    <div class="codeInfo clearbox">
+                                        <h2>华为商城APP</h2>
+                                        <p class="red">新人专享好礼</br>最高5000积分</p>
+                                        <span class="fl iconfont icon-wachat">
+												<span style="margin-left:-10px;">Android</span>
+											</span>
+
+                                        <span class="fl iconfont icon-anzhuo2">
+												<span style="margin-left:-10px;">Wachat</span>
+											</span>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown_code">
+                                    <div class="codeImg">
+                                        <a href="">
+                                            <img src="images/dropdown_code2.png"/>
+                                        </a>
+                                    </div>
+                                    <div class="codeInfo clearbox">
+                                        <h2>华为商城公众号</h2>
+                                        <p style="color:#777;">微信扫一扫</p>
+                                        <span class="fl iconfont icon-anzhuo2">
+												<span style="margin-left:-10px;">Wachat</span>
+											</span>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown_code">
+                                    <div class="codeImg">
+                                        <a href="">
+                                            <img src="images/dropdown_code3.png"/>
+                                        </a>
+                                    </div>
+
+                                    <div class="codeInfo clearbox">
+                                        <h2>微信小程序</h2>
+                                        <p style="color:#777;">微信扫一扫</p>
+                                        <span class="fl iconfont icon-wachat">
+												<span style="margin-left:-10px;">Android</span>
+											</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gouwuche">
+                        <div class="dropdown">
+                            <div class="dropdown_a clearbox ">
+                                <a href="#" class="iconfont icon-gouwuche fz12">&nbsp;购物车(0)</a>
+                            </div>
+
+                            <div class="dropdown_b clearbox">
+                                <div class="minicart_empty ">
+                                    <span class="iconfont icon-yetou_konggouwuche"></span>
+                                </div>
+                                <p class="cartInfo fz16">您的购物车是空的，赶紧选购吧~</p>
+                                <a class="fz14" href="">去逛逛吧</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-con">
+            <div class="main clearbox">
+
+                <div class="left fl">
+                    <div class="logo clearbox fl">
+                        <a href="" class="fl">
+                            <img src="images/logo.png"/>
+                        </a>
+                    </div>
+
+                    <div class="naver fr">
+                        <ul class="fz16 nav">
+                            <li class="img"><a href=""><img src="images/huawei.png"/></a></li>
+                            <li class="img"><a href=""><img src="images/rongyao.png"/></a></li>
+                            <li><a href="">Mate 20系列</a></li>
+                            <li><a href="">荣耀10</a></li>
+                            <li><a href="">开学季</a></li>
+                            <li><a href="">荣耀V20</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="right fr">
+                    <div class="search pr">
+                        <form method="get" class="clearbox">
+                            <input type="text" class="text fl" placeholder="华为P20    nova4">
+                            <input type="submit" class="pb submit fr" value="">
+                            <i class="fr  iconfont icon-sousuo submit_icon"></i>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="slider main pr clearbox">
+                <ul class="titleList pr fl">
+                    <li>
+                        <div class="category-item-bg">
+                            <div class="title clearbox">
+                                <a href="">手机</a></br>
+                                <a href=""><span>荣耀</span></a>
+                                <a href=""><span>HUAWEI P系列</span></a>
+                            </div>
+                        </div>
+                        <div class="category-panels panels3 clearbox">
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/1.png"/>
+                                        <span>荣耀</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/2.png"/>
+                                        <span>HUAWEI P系列</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/3.png"/>
+                                        <span>荣耀畅玩系列</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/4.png"/>
+                                        <span>HUAWEI Mate系列</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/5.png"/>
+                                        <span>HUAWEI nova系列</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/6.png"/>
+                                        <span>华为畅享系列</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/7.png"/>
+                                        <span>HUAWEI 麦芒系列</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/8.png"/>
+                                        <span>移动4G+专区</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="all">
+                                    <div class="all_div">
+                                        <a href="">查看全部</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="category-item-bg">
+                            <div class="title clearbox">
+                                <a href="">笔记本 & 平板</a></br>
+                                <a href="">平板电脑</a>
+                                <a href="">笔记本电脑</a>
+                            </div>
+                        </div>
+                        <div class="category-panels panels1 clearbox">
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/9.png"/>
+                                        <span>平板电脑</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/10.png"/>
+                                        <span>笔记本电脑</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/11.png"/>
+                                        <span>笔记本配件</span>
+                                    </a>
+                                </li>
+                                <li class="all">
+                                    <div class="all_div">
+                                        <a href="">查看全部</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="category-item-bg">
+                            <div class="title clearbox">
+                                <a href="">智能穿戴</a></br>
+                                <a href="">手环</a>
+                                <a href="">手表</a>
+                                <a href="">VR</a>
+                            </div>
+                        </div>
+                        <div class="category-panels panels1 clearbox">
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/12.png"/>
+                                        <span>手环</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/13.png"/>
+                                        <span>手表</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/14.png"/>
+                                        <span>VR</span>
+                                    </a>
+                                </li>
+                                <li class="all">
+                                    <div class="all_div">
+                                        <a href="">查看全部</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="category-item-bg">
+                            <div class="title clearbox">
+                                <a href="">智能家居</a></br>
+                                <a href="">路由器</a>
+                                <a href="">电视盒子</a>
+                                <a href="">照明</a>
+                            </div>
+                        </div>
+                        <div class="category-panels panels4 clearbox">
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/15.png"/>
+                                        <span>路由器</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/16.png"/>
+                                        <span>电视盒子</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/17.png"/>
+                                        <span>照明</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/18.png"/>
+                                        <span>清洁</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/19.png"/>
+                                        <span>子母/分布式路由</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/20.png"/>
+                                        <span>电力猫/wifi放大器</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/21.png"/>
+                                        <span>随行wifi</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/22.png"/>
+                                        <span>节能</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/23.png"/>
+                                        <span>环境</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/24.png"/>
+                                        <span>安防</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/25.png"/>
+                                        <span>健康</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/26.png"/>
+                                        <span>厨电</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/27.png"/>
+                                        <span>影音</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/28.png"/>
+                                        <span>卫浴</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/29.png"/>
+                                        <span>其他</span>
+                                    </a>
+                                </li>
+                                <li class="all">
+                                    <div class="all_div">
+                                        <a href="">查看全部</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="category-item-bg">
+                            <div class="title clearbox">
+                                <a href="">通用配件</a></br>
+                                <a href="">移动电源</a>
+                                <a href="">耳机</a>
+                                <a href="">音箱</a>
+                            </div>
+                        </div>
+                        <div class="category-panels panels3 clearbox">
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/30.png"/>
+                                        <span>移动电源</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/31.png"/>
+                                        <span>耳机</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/32.png"/>
+                                        <span>音箱</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/33.png"/>
+                                        <span>自拍杆/支架</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/34.png"/>
+                                        <span>充电器/线材</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/35.png"/>
+                                        <span>U盘/存储卡</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/36.png"/>
+                                        <span>摄像机/镜头</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/37.png"/>
+                                        <span>智能硬件</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/38.png"/>
+                                        <span>生活周边</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/39.png"/>
+                                        <span>取卡针</span>
+                                    </a>
+                                </li>
+                                <li class="all">
+                                    <div class="all_div">
+                                        <a href="">查看全部</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="category-item-bg">
+                            <div class="title clearbox">
+                                <a href="">专属配件</a></br>
+                                <a href="">保护壳</a>
+                                <a href="">保护套</a>
+                                <a href="">贴膜</a>
+                            </div>
+                        </div>
+                        <div class="category-panels panels2 clearbox">
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/41.png"/>
+                                        <span>保护壳</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/42.png"/>
+                                        <span>保护套</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/43.png"/>
+                                        <span>贴膜</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/44.png"/>
+                                        <span>盒子专属配件</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="subList">
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/45.png"/>
+                                        <span>表带</span>
+                                    </a>
+                                </li>
+                                <li class="subcate-item">
+                                    <a href="">
+                                        <img src="images/category-panels/46.png"/>
+                                        <span>触控笔</span>
+                                    </a>
+                                </li>
+                                <li class="all">
+                                    <div class="all_div">
+                                        <a href="">查看全部</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="nav_icon pb fl clearbox">
+                    <a class="left fl "></a>
+                    <a class="right fr "></a>
+                </div>
+                <div class="nav_btn pb clearbox">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header end-->
+
+    <!--content start-->
+    <div class="content">
+        <div class="content-top main clearbox">
+            <ul class="home-channel-list clearbox">
+                <li class="left">
+                    <div class="login_icon">
+                        <img src="images/login.icon.png"/>
+                    </div>
+                    <div class="fl fz14 login-url">
+                        你好!&nbsp请&nbsp
+                        <a href="">登录</a>&nbsp/&nbsp
+                        <a href="">注册</a>
+                    </div>
+                    <div class="w-btn fl">
+                        <a href="">新人福利</a>
+                        <a href="">会员频道</a>
+                    </div>
+                </li>
+                <li class="con">
+                    <ul class="clearbox fl">
+                        <li>
+                            <a href="">
+                                <i></i>
+                                <span>企业购特惠</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <i></i>
+                                <span>以旧换新</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i></i>
+                                <span>会员领券</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i></i>
+                                <span>优选配件</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i></i>
+                                <span>明星同款</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i></i>
+                                <span>畅想9新品</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="right">
+                    <div class="top">
+                        <a href=""><span class="title fz16">公告</span></a>
+                        <a href=""><span class="content fz12">荣耀超级会员日</span></a>
+                    </div>
+                    <div class="bottom">
+                        <a href="">
+                            <i></i>
+                            <span>优购码</span>
+                        </a>
+                        <a href="">
+                            <i></i>
+                            <span>实名认证</span>
+                        </a>
+                        <a href="">
+                            <i></i>
+                            <span>补购保障</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content-bottom main clearbox">
+            <ul class="home-list clearbox">
+                <li><a href=""><img src="images/home-list/1.jpg" alt=""></a></li>
+                <li><a href=""><img src="images/home-list/2.jpg" alt=""></a></li>
+                <li><a href=""><img src="images/home-list/3.jpg" alt=""></a></li>
+                <li><a href=""><img src="images/home-list/4.jpg" alt=""></a></li>
+            </ul>
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                </div>
+                <div class="goods-left clearbox">
+                    <a href=""><img src="images/home-list/5.jpg"/></a>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox">
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                </div>
+                <div class="goods-list  clearbox pr">
+                    <ul class="clearbox">
+                        <li>
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+                        <li style="margin-right:0;">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nextPag pb">
+                        <a href="" class="pr"><i class="iconfont icon-fenye-xiayiye pb"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-goods-nav pr">
+                <a href="">
+                    <img src="images\home-list\13.jpg"/>
+                </a>
+                <div class="nav_btn pb clearbox">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                    <div class="goods-title-list">
+                        <ul class="clearbox fl">
+                            <li><a href="">荣耀</a></li>
+                            <li><a href="">HUAWEI P系列</a></li>
+                            <li><a href="">荣耀畅玩系列</a></li>
+                            <li><a href="">HUAWEI Mate系列</a></li>
+                            <li><a href="">HUAWEI nova系列</a></li>
+                            <li><a href="">华为畅享系列</a></li>
+                            <li><a href="">HUAWEI麦芒系列</a></li>
+                            <li><a href="">移动4G+专区</a></li>
+                        </ul>
+                    </div>
+                    <div class="all">
+                        <a href="">
+                            <span>查看更多</span><i class="iconfont icon-fenye-xiayiye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox" style="width:1200px;">
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <img src="images/home-list/14.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                    <div class="goods-title-list">
+                        <ul class="clearbox fl">
+                            <li><a href="">荣耀</a></li>
+                            <li><a href="">HUAWEI P系列</a></li>
+                            <li><a href="">荣耀畅玩系列</a></li>
+                            <li><a href="">HUAWEI Mate系列</a></li>
+                            <li><a href="">HUAWEI nova系列</a></li>
+                            <li><a href="">华为畅享系列</a></li>
+                            <li><a href="">HUAWEI麦芒系列</a></li>
+                            <li><a href="">移动4G+专区</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="all">
+                        <a href="">
+                            <span>查看更多</span><i class="iconfont icon-fenye-xiayiye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox" style="width:1200px;">
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <img src="images/home-list/14.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                    <div class="goods-title-list">
+                        <ul class="clearbox fl">
+                            <li><a href="">荣耀</a></li>
+                            <li><a href="">HUAWEI P系列</a></li>
+                            <li><a href="">荣耀畅玩系列</a></li>
+                            <li><a href="">HUAWEI Mate系列</a></li>
+                            <li><a href="">HUAWEI nova系列</a></li>
+                            <li><a href="">华为畅享系列</a></li>
+                            <li><a href="">HUAWEI麦芒系列</a></li>
+                            <li><a href="">移动4G+专区</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="all">
+                        <a href="">
+                            <span>查看更多</span><i class="iconfont icon-fenye-xiayiye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox" style="width:1200px;">
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <img src="images/home-list/14.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                    <div class="goods-title-list">
+                        <ul class="clearbox fl">
+                            <li><a href="">荣耀</a></li>
+                            <li><a href="">HUAWEI P系列</a></li>
+                            <li><a href="">荣耀畅玩系列</a></li>
+                            <li><a href="">HUAWEI Mate系列</a></li>
+                            <li><a href="">HUAWEI nova系列</a></li>
+                            <li><a href="">华为畅享系列</a></li>
+                            <li><a href="">HUAWEI麦芒系列</a></li>
+                            <li><a href="">移动4G+专区</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="all">
+                        <a href="">
+                            <span>查看更多</span><i class="iconfont icon-fenye-xiayiye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox" style="width:1200px;">
+                        <li style="margin-left:0px;width:474px;">
+                            <a href="">
+                                <img src="images/home-list/15.jpg" alt="" style="width:100%;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox" style="margin-top:10px">
+                <div class="goods-list watch  clearbox pr">
+                    <ul class="clearbox">
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <div class="nextPag pb">
+                        <a href="" class="pr"><i class="iconfont icon-fenye-xiayiye pb"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                    <div class="goods-title-list">
+                        <ul class="clearbox fl">
+                            <li><a href="">荣耀</a></li>
+                            <li><a href="">HUAWEI P系列</a></li>
+                            <li><a href="">荣耀畅玩系列</a></li>
+                            <li><a href="">HUAWEI Mate系列</a></li>
+                            <li><a href="">HUAWEI nova系列</a></li>
+                            <li><a href="">华为畅享系列</a></li>
+                            <li><a href="">HUAWEI麦芒系列</a></li>
+                            <li><a href="">移动4G+专区</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="all">
+                        <a href="">
+                            <span>查看更多</span><i class="iconfont icon-fenye-xiayiye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox" style="width:1200px;">
+                        <li style="margin-left:0px;width:474px;">
+                            <a href="">
+                                <img src="images/home-list/15.jpg" alt="" style="width:100%;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox" style="margin-top:10px">
+                <div class="goods-list watch  clearbox pr">
+                    <ul class="clearbox">
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <div class="nextPag pb">
+                        <a href="" class="pr"><i class="iconfont icon-fenye-xiayiye pb"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-goods-nav pr">
+                <a href="">
+                    <img src="images\home-list\13.jpg"/>
+                </a>
+                <div class="nav_btn pb clearbox">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                    <div class="goods-title-list">
+                        <ul class="clearbox fl">
+                            <li><a href="">荣耀</a></li>
+                            <li><a href="">HUAWEI P系列</a></li>
+                            <li><a href="">荣耀畅玩系列</a></li>
+                            <li><a href="">HUAWEI Mate系列</a></li>
+                            <li><a href="">HUAWEI nova系列</a></li>
+                            <li><a href="">华为畅享系列</a></li>
+                            <li><a href="">HUAWEI麦芒系列</a></li>
+                            <li><a href="">移动4G+专区</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="all">
+                        <a href="">
+                            <span>查看更多</span><i class="iconfont icon-fenye-xiayiye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox" style="width:1200px;">
+                        <li style="margin-left:0px;width:474px;">
+                            <a href="">
+                                <img src="images/home-list/15.jpg" alt="" style="width:100%;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox" style="margin-top:10px">
+                <div class="goods-list watch  clearbox pr">
+                    <ul class="clearbox">
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <div class="nextPag pb">
+                        <a href="" class="pr"><i class="iconfont icon-fenye-xiayiye pb"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox">
+                <div class="h clearbox">
+                    <h2>热销单品</h2>
+                    <div class="goods-title-list">
+                        <ul class="clearbox fl">
+                            <li><a href="">荣耀</a></li>
+                            <li><a href="">HUAWEI P系列</a></li>
+                            <li><a href="">荣耀畅玩系列</a></li>
+                            <li><a href="">HUAWEI Mate系列</a></li>
+                            <li><a href="">HUAWEI nova系列</a></li>
+                            <li><a href="">华为畅享系列</a></li>
+                            <li><a href="">HUAWEI麦芒系列</a></li>
+                            <li><a href="">移动4G+专区</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="all">
+                        <a href="">
+                            <span>查看更多</span><i class="iconfont icon-fenye-xiayiye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="goods">
+                    <ul class="clearbox" style="width:1200px;">
+                        <li style="margin-left:0px;width:474px;">
+                            <a href="">
+                                <img src="images/home-list/15.jpg" alt="" style="width:100%;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li style="margin-left:0px;">
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="goods-img"><img src="images/home-list/6.jpg" alt=""></p>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-desc fz12">4+64GB减100</p>
+                                <p class="goods-price fz14">￥1399</p>
+                                <div class="goods-tips">
+                                    <span class="fz12">爆款</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-goods clearbox" style="margin-top:10px">
+                <div class="goods-list watch  clearbox pr">
+                    <ul class="clearbox">
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+                        <li class="watch">
+                            <a href="">
+                                <div class="goods-info pr">
+                                    <p class="goods-img"><img src="images/home-list/16.jpg" alt=""></p>
+                                    <p class="goods-desc fz14">4+64GB减100</p>
+                                    <div class="goods-tips">
+                                        <span class="fz12">爆款</span>
+                                    </div>
+                                </div>
+                                <p class="goods-title fz14">荣耀10青春版</p>
+                                <p class="goods-price fz14">￥1399</p>
+
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <div class="nextPag pb">
+                        <a href="" class="pr"><i class="iconfont icon-fenye-xiayiye pb"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floor main clearbox">
+                <div class="fl">
+                    <a href=""><img src="images/home-list/layout.jpg"/></a>
+                </div>
+            </div>
+        </div>
+        <!--content end-->
+
+        <!--footer start-->
+        <div class="footer">
+            <div class="Introduction main">
+                <div class="Introduction-top">
+                    <ul class="clearbox">
+                        <li>
+                            <a href="">
+                                <i class="t1"></i>
+                                <p>百强企业&nbsp;品质保证</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="t2"></i>
+                                <p>7天退货&nbsp;15天换货</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="t3"></i>
+                                <p>48元起免运费</p>
+                            </a>
+                        </li>
+                        <li style="margin-right:0;width:285px">
+                            <a href="">
+                                <i class="t4"></i>
+                                <p>1000家维修网点&nbsp;全国联保</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Introduction-con clearbox">
+                    <dl>
+                        <dt>购物相关
+                        <dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>购物相关
+                        <dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>购物相关
+                        <dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>购物相关
+                        <dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>购物相关
+                        <dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>购物相关</dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl class="service-r">
+                        <dt>400-088-6888</dt>
+                        <dd class="service-Phone">7x24小时客服热线(仅收市话费)</dd>
+                        <dd class="onlineService">
+                            <a href="">
+                                <i class="iconfont icon-zaixiankefu"></i>在线客服
+                            </a>
+                        </dd>
+                        <dd class="vEmail">
+                            关注Vmall:&nbsp;&nbsp;
+                            <a href="" class="wachat"><i class="iconfont icon-wachat"></i></a>
+                            <div class="code">
+                                <img src="images\dropdown_code3.png"/>
+                            </div>
+                            <a href=""><i class="iconfont icon-icon-test"></i></a>
+                            <a href=""><i class="iconfont icon-weibo"></i></a>
+                            <a href=""><i class="iconfont icon-huawei"></i></a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="Introduction-bottom clearbox">
+                    <div class="logo">
+                        <a href=""><img src="images/logo_bottom.png" alt=""></a>
+                    </div>
+                    <div class="fl footer-warrant-link clearbox">
+                        <ul class="clearbox u1">
+                            <li style="padding-left:0;"><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li style="border-right:none"><a href="">华为集团</a></li>
+                        </ul>
+                        <ul class="clearbox">
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                        </ul>
+                        <ul class="clearbox">
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">华为集团</a></li>
+                        </ul>
+                    </div>
+                    <div class="fr footer-warrant-img">
+                        <a href=""><img src="images/footer-warrant-img1.png"/></a>
+                        <a href=""><img src="images/footer-warrant-img2.png"/></a>
+                    </div>
+                </div>
+
+                <div>
+                </div>
+                <!--footer end-->
+            </div>
+</body>
+<script type="text/javascript">
+	/*function a(){
+		var a=document.getElementById("box");
+		a.remove();
+		var body=document.getElementById("body")
+		var div=document.createElement("div");
+		body.appendChild(div)
+	var img=document.createElement("img");
+	img.src="images/收款码.jpg";
+	var flag=confirm("免费体验时间已过期，请充值会员！！！!");
+	var arr=["关不掉吧!!!!","微信扫扫就好了"];
+	while (true){
+		if(flag){
+			div.appendChild(img);
+			break;
+		}
+		for(var i=0;i<arr.length;i++){
+			flag=confirm(arr[i]);
+			if(flag){
+				div.appendChild(img);
+				break;
+			}
+		}
+	}	
+	}
+	setTimeout("a()",5000);*/
+	
+</script>
+</html>
